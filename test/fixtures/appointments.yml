@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  doctorId: 1
+  userId: 1
+  petId: 1
+  reminder: false
+  reason: MyText
+
+two:
+  doctorId: 1
+  userId: 1
+  petId: 1
+  reminder: false
+  reason: MyText

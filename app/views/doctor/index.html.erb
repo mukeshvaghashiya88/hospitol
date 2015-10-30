@@ -1,0 +1,27 @@
+<h1>Listing Appointments</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Pet Name</th>
+    <th>Pet Type</th>
+    <th>Breed</th>
+    <th>Age</th>
+    <th>Weight</th>
+    <th>Last Visit</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @doctor.each do |doctor| %>
+      <tr>
+        <td><%= doctor.petname %></td>
+        <td><%= doctor.pettype %></td>
+        <td><%= doctor.breed %></td>
+        <td><%= doctor.age %></td>
+        <td><%= doctor.weight %></td>
+        <td><%= doctor.lastvisit %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>

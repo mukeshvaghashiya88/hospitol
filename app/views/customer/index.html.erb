@@ -1,0 +1,21 @@
+<h1>Appointments</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Pet Name</th>
+    <th>Appointment Date</th>
+    <th>Reason</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @customer.each do |customer| %>
+      <tr>
+        <td><%= customer.name %></td>
+        <td><%= customer.appointmentDate %></td>
+        <td><%= customer.reason %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>

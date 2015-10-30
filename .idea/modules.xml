@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/hospitol.iml" filepath="$PROJECT_DIR$/.idea/hospitol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rspecLearn/.idea/rspecLearn.iml" filepath="$PROJECT_DIR$/../rspecLearn/.idea/rspecLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../store/.idea/store.iml" filepath="$PROJECT_DIR$/../store/.idea/store.iml" />
+      <module fileurl="file://$USER_HOME$/RubymineProjects/testingruby/.idea/testingruby.iml" filepath="$USER_HOME$/RubymineProjects/testingruby/.idea/testingruby.iml" />
+    </modules>
+  </component>
+</project>
